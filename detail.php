@@ -27,7 +27,8 @@
                         // set vote counter increment
                         mysqli_query($conn, "UPDATE candidates SET vote_totall = $votes_pres WHERE id=$vid");
 
-                        header('Location: candidate.php');
+                        //header('Location: candidate.php');
+                        echo "<script>window.location.href = 'candidate.php'; </script>";
 
                     } 
 

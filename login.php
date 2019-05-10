@@ -63,7 +63,7 @@ if(isset($_POST['btn_login'])){
 
     
     <div class="container">
-        <p class="center"><img src="images/logo.png" alt=""></p>
+        <p class="center"><img src="images/logo.png" alt="" width="100%"></p>
         
             <form class="col s12" action="" method="post" id="loginForm">
                 <div class="row">
@@ -78,7 +78,7 @@ if(isset($_POST['btn_login'])){
                         <label for="icon_telephone">Password</label>
                     </div>
                     <div class="input-field col s12">
-                        <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect orange'>Login</button>
+                        <button type='submit' name='btn_login' class='col s12 btn orange'>Login</button>
                     </div>
                 </div>
             </form>
